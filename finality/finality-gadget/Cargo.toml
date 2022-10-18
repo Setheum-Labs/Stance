@@ -8,7 +8,7 @@ license = "Apache 2.0"
 [dependencies]
 stance = "0.18.1"
 stance-rmc = "0.4.0"
-stance-primitives = { package = "primitives", path = "../primitives" }
+stance-primitives = { package = "primitives", path = "../../utils/primitives" }
 stance-rmc-aggregator = { path = "../", tag = "aggregator-v0.1.0" }
 
 async-trait = "0.1"

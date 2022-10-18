@@ -50,7 +50,7 @@ pub mod pallet {
         ensure_root,
         pallet_prelude::{BlockNumberFor, OriginFor},
     };
-    use pallets_support::StorageMigration;
+    use stance_support::StorageMigration;
 
     use super::*;
 

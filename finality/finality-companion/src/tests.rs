@@ -33,7 +33,7 @@ type Validators<T> = StorageValue<StanceFGCompanion, Vec<<T as frame_system::Con
 #[cfg(feature = "try-runtime")]
 mod migration_tests {
     use frame_support::{storage::migration::put_storage_value, traits::StorageVersion};
-    use pallets_support::StorageMigration;
+    use stance_support::StorageMigration;
 
     use crate::{migrations, mock::*, Pallet};
 

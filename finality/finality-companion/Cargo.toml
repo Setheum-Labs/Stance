@@ -18,6 +18,8 @@ pallet-session = { default-features = false, git = "https://github.com/Cardinal-
 sp-io = { default-features = false, git = "https://github.com/Cardinal-Cryptography/substrate.git", branch = "stance-v0.9.26" }
 sp-std = { default-features = false, git = "https://github.com/Cardinal-Cryptography/substrate.git", branch = "stance-v0.9.26" }
 
+stance-support = { path = "../../utils/support", version = "0.9.81" }
+
 [dev-dependencies]
 pallet-timestamp = { default-features = false, git = "https://github.com/Cardinal-Cryptography/substrate.git", branch = "stance-v0.9.26" }
 sp-runtime = { default-features = false, git = "https://github.com/Cardinal-Cryptography/substrate.git", branch = "stance-v0.9.26" }

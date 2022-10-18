@@ -26,8 +26,8 @@ use frame_support::{
     weights::Weight,
 };
 #[cfg(feature = "try-runtime")]
-use pallets_support::ensure_storage_version;
-use pallets_support::StorageMigration;
+use stance_support::ensure_storage_version;
+use stance_support::StorageMigration;
 use primitives::SessionIndex;
 use sp_std::vec::Vec;
 
